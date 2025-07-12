@@ -58,12 +58,12 @@
 #     print(a)
 
 ## USING BREAK AND CONTINIUE STATEMENT:
-while True:
-    n = int(input("ENTER THE NUMBER "))
-    print(n)
-    if(n>100):
-        break
+# while True:
+#     n = int(input("ENTER THE NUMBER "))
+#     print(n)
+#     if(n>100):
+#         break
 
 
-
+            
 

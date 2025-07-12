@@ -76,4 +76,40 @@
 # a=fbnchi(10)
 # print(a) 
 
-import this 
+# import this 
+
+# n= int(input())
+# sum = 0 
+# for i in range(n+1):
+#     sum = sum + i
+# print(sum)    
+
+
+# a= 12345
+# b = str(a)
+# print(len(b))
+
+
+# a = 5
+# b= 1
+# for i in range(1,a+1):
+#     b=b*i
+# print(b)  
+
+
+# a = "aeiou"
+# b = "shashwat"
+# count = 0
+# for i in a:
+#     for q in b:
+#         if i == q:
+#             count += 1
+# print(count)            
+
+
+# num = int(input())
+# for z in range(2,num):
+#     if num % z ==0:
+#         break
+#     else:
+#         print("PRIME")       

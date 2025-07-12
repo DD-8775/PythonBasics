@@ -79,4 +79,4 @@ also to comment line
 c = "hi how are you?"
 print(c.endswith("?"))             # checks if string ends with the given and returns true or false. [spaces also matters]
 print(c.index("ar"))               # tells the index of the first occurence of the given value , if not present it return an exception
-print(c.find("ar"))                # tells the index of the fitdt occurence of the given value , if not present it return -1 
+print(c.find("ar"))                # tells the index of the first occurence of the given value , if not present it return -1 
