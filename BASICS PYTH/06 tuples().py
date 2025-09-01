@@ -1,7 +1,7 @@
 ## Tuples are ordered collection of data items like lists they also store multiple items in a single variable
 ## They are immutable i.e., they can't be changed after creation
 
-tup = (1, 2, 76, 342, 32, "green", True)
+tup = (1, 2, 32,76, 342, 32, "green", True)
 # tup[0] = 90                        # will print error as tuples can't be changed
 # print(type(tup), tup)
 # print(len(tup))
@@ -30,5 +30,5 @@ tup = tuple(change1)                       # This changes back the list to tuple
 print(tup)
 
 print(tup.index("green"))
-print(tup.index(32,3,6))                   # tuple.index(element, start, end) tells the first occurence of element from start to end-1 
+print(tup.index(32,3,6))                   # tuple.index(element, start, end) tells the first occurence of element only from start to end-1 
 

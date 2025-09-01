@@ -1,4 +1,4 @@
-## _.yashii0221_ 
+
 ## Conditional operators :  > , < , >= , <= , == , !=
 
 ##                           if() - else() STATEMENT:

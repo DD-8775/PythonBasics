@@ -1,55 +1,55 @@
 ''' For multiple cursor use left ALT '''
 ##               PRINT FCN                                           --------------------------------------------------------------------------------
-# print(7)                  # pyhton treat it as integer
-# print("hello world ")     # python treat it as string as ("") is present
-# print(3.14)               # python will treat it as floating  point number
+print(7)                  # pyhton treat it as integer
+print("hello world ")     # python treat it as string as ("") is present
+print(3.14)               # python will treat it as floating  point number
 '''
 we can 
 use 3 single/double quote   # use alt + down arrow key to move the line on which coursor is , to down
 also to comment line
 '''
-# print("hey \nhow are you")  # \n is use to print in new line and no need of giving space after \n unless required
-# print("hey what's up",7,2.4, sep= " ~ ")    # sep="" is seperator and used to seperate multiple items within print, by default space is sep.
-# print("hey",1,2,3,end="200\n" )    # end="" is used to specify what to print in the end and by using \n is end it will print the next operation in the nest line . Default is \n
-# print(7)
+print("hey \nhow are you")  # \n is use to print in new line and no need of giving space after \n unless required
+print("hey what's up",7,2.4, sep= " ~ ")    # sep="" is seperator and used to seperate multiple items within print, by default space is sep.
+print("hey",1,2,3,end="200\n" )    # end="" is used to specify what to print in the end and by using \n is end it will print the next operation in the nest line . Default is \n
+print(7)
 
 
-##            VARIABLES AND DATA TYPES                                         --------------------------------------------------------------------------------
+#            VARIABLES AND DATA TYPES                                         --------------------------------------------------------------------------------
 
-## VARIABLES : they store data for ex. a = 10 or b = "hello"
-## DATA TYPE : it is different types of value a variable holds like string, integers, boolen etc.
+# VARIABLES : they store data for ex. a = 10 or b = "hello"
+# DATA TYPE : it is different types of value a variable holds like string, integers, boolen etc.
 
-# a = 1.202
-# print(type(a))          # type() is used to print the type of data type
-# print(complex(2,5))     # complex(a,b) is used to define complex data type of a+bj form
-# b= True                 # this is a boolean data type (it consits of values TRUE or FALSE)
-# print(type(b))
-# list=[1,2.3,[-1,complex(1,2)],"hi","how are you"]   # list: it is an ordered collection of data with each elements seperated by comma and enclosed within square braket. It is an mutable datatype.
+a = 1.202
+print(type(a))          # type() is used to print the type of data type
+print(complex(2,5))     # complex(a,b) is used to define complex data type of a+bj form
+b= True                 # this is a boolean data type (it consits of values TRUE or FALSE)
+print(type(b))
+list=[1,2.3,[-1,complex(1,2)],"hi","how are you"]   # list: it is an ordered collection of data with each elements seperated by comma and enclosed within square braket. It is an mutable datatype.
 # print(list)
 # tuple = (("parrot", "sparrow"), ("Lion", "Tiger"))  # tuple: it is an ordered collection of data with elements seperated by comma and enclosed within parentheses. They are immutable datatypes.
 # print(tuple)
 
 ''' OPERATORS : [* : MULTIPLY] , [/ : DIVIDE] , [// : ONLY PRINT THE INTEGER VALUE NOT THE DECIMAL] , [% : PRINTS REMIANDER]  , [** : PRINTS EXPONENTIAL] , [+= : a += 3 is same as , a = a+3]'''
-## TYPECASTING : Conversion of one datatype to other data type is called typecasting in python. {str() , float() , int() , set() , dict() etc.}
-# a = input()            # python will treat input as a string
-# print(a)
+# TYPECASTING : Conversion of one datatype to other data type is called typecasting in python. {str() , float() , int() , set() , dict() etc.}
+a = input()            # python will treat input as a string
+print(a)
 
 
 ##                          STRINGS                                      ----------------------------------------------------------------------------
 
-## It is a secquence or array of textual data . In python , anything enclosed in "" or ' is considered as string
-# name = "shashwat"
-# print(name[0])           # this is indexing, square brackets are used to access the elements of string. In python indexing start from 0 , here it will print s .
-# print(name[3])           # here the output is a . 
+# It is a secquence or array of textual data . In python , anything enclosed in "" or ' is considered as string
+name = "shashwat"
+print(name[0])           # this is indexing, square brackets are used to access the elements of string. In python indexing start from 0 , here it will print s .
+print(name[3])           # here the output is a . 
 
-# para = '''Hi how are you
-# I'm fine thank you 
-# how are you doing?
-# I'm doing good , thanks for asking . '''       # ''' or """ is used to print multiline string
-# print(para)
-# for i in para :            # this is used to print every charater in the string
-#     print(i)
-# print(name,"is a",len(name), "letter word")       # len() is used to print length of a string 
+para = '''Hi how are you
+I'm fine thank you 
+how are you doing?
+I'm doing good , thanks for asking . '''       # ''' or """ is used to print multiline string
+print(para)
+for i in para :            # this is used to print every charater in the string
+    print(i)
+print(name,"is a",len(name), "letter word")       # len() is used to print length of a string 
 # print(name[:5])            # this can be also written to print(name[0:5]) , it will print first 5 charaters of string, i.e, from index 0 to 5-1 = 4
 # print(name[3:8])           # this will print charater fron index 3 to 8-1
 # print(name[-6:-2])           # this means print(name[len(name)-6 : len(name)-2]) i.e, print(name[2:6]) , so it will print charater from index 2 to 5
