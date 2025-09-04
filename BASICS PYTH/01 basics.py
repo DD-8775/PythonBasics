@@ -10,7 +10,7 @@ also to comment line
 '''
 print("hey \nhow are you")  # \n is use to print in new line and no need of giving space after \n unless required
 print("hey what's up",7,2.4, sep= " ~ ")    # sep="" is seperator and used to seperate multiple items within print, by default space is sep.
-print("hey",1,2,3,end="200\n" )    # end="" is used to specify what to print in the end and by using \n is end it will print the next operation in the nest line . Default is \n
+print("hey",1,2,3,end="200\n" )    # end="" is used to specify what to print in the end and by using \n is end it will print the next operation in the next line . Default is \n
 print(7)
 
 
@@ -59,7 +59,7 @@ print(name,"is a",len(name), "letter word")       # len() is used to print lengt
 # This also means that operations like sclicing or reassembling parts of a string cerats a new string . '''
 
 # a = " Coding is>good > "
-# print(len(a))                  # starts from 0 and count total no. of item present 
+# print(len(a))                  # starts from 1 and count total no. of item present [it counts every elements including spaces]
 # print(a.upper())               # converets a string to uppercase
 # print(a.lower())               # converets a string to llower case 
 # print(a.split())               # it is used to converet string to list 

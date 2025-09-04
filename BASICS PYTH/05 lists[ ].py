@@ -17,7 +17,7 @@ lst1 = [False,1,2,3,4,"harry",True,0.213]
 
 ## We can also print range of list items : listName[ start : end : jumpindex] 
 
-# lst1[1::2]                   # Prints items starting from index 1 till last and jumping to every next 2nd one
+# print(lst1[1::2])                   # Prints items starting from index 1 till last and jumping to every next 2nd one
 
 
 # lst2 = [2,4,5,6,8,9,10]
