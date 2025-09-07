@@ -16,3 +16,14 @@ print(factorial(5))
 # 5 * 4 * 3 * 2 * 1
 
 
+# ---------    Fibonacci sequence 
+# To print x'th fibonacci number
+
+def fibonacci(x):
+    if x == 0 :
+        return 0
+    elif x == 1 :
+        return 1
+    else:
+        return fibonacci(x-1) + fibonacci(x-2)
+print(fibonacci(10))    
