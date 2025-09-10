@@ -12,3 +12,4 @@ print(f"The payable price is {price:.2f}")               # {price:.2f} this will
 txt = "For only {price:.2f} dollars!"
 print(txt.format(price = 49))
 
+print("{1} is better than {0}".format("lilly","jane"))
