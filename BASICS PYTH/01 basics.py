@@ -40,7 +40,7 @@ print(a)
 # It is a secquence or array of textual data . In python , anything enclosed in "" or ' is considered as string
 name = "shashwat"
 print(name[0])           # this is indexing, square brackets are used to access the elements of string. In python indexing start from 0 , here it will print s .
-print(name[3])           # here the output is a . 
+print(name[3])           # here the output is s . 
 
 para = '''Hi how are you
 I'm fine thank you 
@@ -49,6 +49,8 @@ I'm doing good , thanks for asking . '''       # ''' or """ is used to print mul
 print(para)
 for i in para :            # this is used to print every charater in the string
     print(i)
+print(para.splitlines())    # used to acsses every single line in a multi-lined string
+    
 print(name,"is a",len(name), "letter word")       # len() is used to print length of a string 
 # print(name[:5])            # this can be also written to print(name[0:5]) , it will print first 5 charaters of string, i.e, from index 0 to 5-1 = 4
 # print(name[3:8])           # this will print charater fron index 3 to 8-1
@@ -62,7 +64,7 @@ print(name,"is a",len(name), "letter word")       # len() is used to print lengt
 # print(len(a))                  # starts from 1 and count total no. of item present [it counts every elements including spaces]
 # print(a.upper())               # converets a string to uppercase
 # print(a.lower())               # converets a string to llower case 
-# print(a.split())               # it is used to converet string to list 
+# print(a.split())               # it is used to converet string to list and also we can acsses every single words of a string.
 # print(a.rstrip(">"))           # remove the specific charater from the end of the string
 # print(a.strip)                 # removes any whitespaces before and after the string
 

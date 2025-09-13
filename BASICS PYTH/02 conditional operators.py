@@ -4,7 +4,7 @@
 ##                           if() - else() STATEMENT:
 
 # a = int(input("ENTER YOUR AGE : "))
-# if(a>=18) :
+# if(a>=18) :                            # if condition inside if is true then if is executed else, else is executed
 #     print("YOU ARE AN ADULT")
 # else:
 #     print("YOU ARE A MINOR")    
@@ -31,7 +31,7 @@
 ##                       NESTED IF-ELIF-ELSE STATEMENT :
 
 # a = int(input("ENTER YOUR AGE : "))
-# if(a>0 and a < 5) :
+# if(a>0 and a < 5) :                # we can't do if a == 1 or 5 as pyhton will only check for 1 and for 5 , as its boolean value is always true(5 is non empty) so else will never be executed. 
 #     print("You are a toddler")
 # elif(a>=5 and a<18 ):
 #     if(a<14):
