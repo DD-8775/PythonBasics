@@ -15,18 +15,15 @@ for word2 in lst1 :
         print('asd',halfc,end="zxc ",sep='')
 
  elif user.lower() == 'decode' :
-    dcd1 = word2[3:]
-    rev2 = dcd1[::-1]
-    dcd2 = rev2[3:]
+    dcd1 = word2[3:-3]
 
-    if len(dcd2)<= 2 :
-       print(dcd2,end=' ')
+    if len(dcd1)<= 2 :
+       rev2 = dcd1[::-1]
+       print(rev2,end=' ')
     
     else :
-       id0 = dcd2[0]
-       dcd3 = dcd2[1:]
-       rev3 = dcd3[::-1]
-       print(id0,rev3,sep='',end=' ')
+       dcd2 = dcd1[-1] + dcd1[:-1]
+       print(dcd2,end=' ')
 
 
  else :

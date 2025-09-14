@@ -30,6 +30,7 @@
 name = 'shahswat'
 print(name[2:])      
 print(name[:2:-1])
+print(name[:-1])
 # print("hey",1,2,3,end="200\n" )   
 
 

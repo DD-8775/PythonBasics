@@ -54,7 +54,7 @@ print(para.splitlines())    # used to acsses every single line in a multi-lined 
 print(name,"is a",len(name), "letter word")       # len() is used to print length of a string 
 # print(name[:5])            # this can be also written to print(name[0:5]) , it will print first 5 charaters of string, i.e, from index 0 to 5-1 = 4
 # print(name[3:8])           # this will print charater fron index 3 to 8-1
-# print(name[-6:-2])           # this means print(name[len(name)-6 : len(name)-2]) i.e, print(name[2:6]) , so it will print charater from index 2 to 5
+print(name[-6:-2])           # this means print(name[len(name)-6 : len(name)-2]) i.e, print(name[2:6]) , so it will print charater from index 2 to 5
 # print(name[-3:-6])           # this will not print anything as [5:2] doesn't make any scense
 
 ''' # Strings are immutable that means we can't do any changes in it , for example: if we try to modify a charater at a specific index it raise  a TypeError indicating that the 'str' object does not support item assignment. The only way to change it is by creating a new string .
