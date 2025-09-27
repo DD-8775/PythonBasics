@@ -3,7 +3,7 @@ user = input("Enter 'code' to code the word , and 'decode' to decode the word : 
 lst1 = word.split()
 for word2 in lst1 :
 
- if user.lower() == 'code' :   
+ if user.lower() == 'code' :
     if len(word2)<=2 :
         rev= word2[::-1]
         print('asd',rev,end="zxc ",sep='')
