@@ -1,2 +1,0 @@
-Just learning Python
-😮‍💨
