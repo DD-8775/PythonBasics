@@ -19,3 +19,16 @@ def avg(a,b,c):
 
 average = avg(12,23,43)
 print(average)                       # if insted of return we write this code with print statement i would not return the value of fcn to variable, so the output would be "none " in that case
+
+
+def sum_num(num1,*num):              # *num is arbitrary 
+    result = num1                     # This is used to give more than two values in the function
+    for i in num :
+        result+= i 
+        return result
+r = sum_num(10,20,30)
+print(r)
+ 
+def myfcn(**name):                   # **name is used to give more than two values(can give single values also ) in the function but in the form of key value pair and it is stored in the form of dictionary.
+    print(f"The first name is {name['fname']} and lst name is {name['lname']}")
+myfcn(fname= "Shashwat", lname="Singh")
