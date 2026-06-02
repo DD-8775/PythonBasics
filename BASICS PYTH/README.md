@@ -1,1 +1,0 @@
-These are some basics of python which would help you as a beginner .
