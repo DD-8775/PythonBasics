@@ -6,5 +6,3 @@ for i in range (term):
     a.append(value)
 
 print(a)
-
-    

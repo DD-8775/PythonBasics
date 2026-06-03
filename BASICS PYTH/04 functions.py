@@ -32,3 +32,21 @@ print(r)
 def myfcn(**name):                   # **name is used to give more than two values(can give single values also ) in the function but in the form of key value pair and it is stored in the form of dictionary.
     print(f"The first name is {name['fname']} and lst name is {name['lname']}")
 myfcn(fname= "Shashwat", lname="Singh")
+
+result = lambda a,b : a+b           # lambda is an anonymous function which can have any number of arguments but only one expression and it is used when we want to write a small function in single line
+print(result(5,3))
+
+num = [1,2,3,4,5,6,7,8,9,10]
+# def is_even(n):
+#     return n % 2 == 0
+
+# result = filter(is_even, num)
+# print(list(result))
+result = filter(lambda x : x%2==0,num)                # This will filter out all the even numbers from the list num and return an iterator which we can convert to list to see the output
+print(list(result))
+
+l = [1,2,3,4,5,6,7,8,9]
+result = map(lambda x : x**3,l)                       # This will cube all the numbers in the list l and return an iterator which we can convert to list to see the output
+print(list(result))
+# Map works on every item of the list and return an iterator with the modified items as per the function provided in map. It is used to apply a function to all items in an iterable (like list, tuple etc.)
+# Filter is used to filter out items from an iterable based on a function that returns True or False. It returns an iterator with the items for which the function returns True.
