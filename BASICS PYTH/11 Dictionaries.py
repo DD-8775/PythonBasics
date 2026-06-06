@@ -49,10 +49,8 @@ info.pop('hi')                 # The pop() method removes the key-value pair who
 print(info)
 
 info.popitem()                 # The popitem() method removes the last key-value pair from the dictionary.
-print(info)
-
-
-# we can also use del kayword to remove a dict item 
+print(info)               
+# we can also use del keyword to remove a dict item 
 
 del info['music']
 print(info)

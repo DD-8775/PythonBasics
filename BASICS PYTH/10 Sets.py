@@ -6,7 +6,7 @@
 # print(s)                        # As it's a set so the duplicate 2 will be rmoved from the result
 # print(type(s))
 
-# s_new = set()            #This is an empty set, {} can't be use as it is dictnory
+# s_new = set()            #This is an empty set, {} can't be use as it is dictionary
 # print(s_new)
 # print(type(s_new))            
 
