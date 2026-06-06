@@ -10,7 +10,7 @@ def is_integer():
  finally :                                    # finally is always executed 
     print("THE END")  
 
- print('THE END BY PRINT')      
+print('THE END BY PRINT')      
 
 x = is_integer()
 print(x)
