@@ -1,0 +1,5 @@
+f= open('BASICS PYTH/myfile.txt','r')
+print(f)
+t= f.read()
+print(t)
+f.close()
