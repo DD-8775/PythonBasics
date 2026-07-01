@@ -16,3 +16,11 @@ f.close()  # closes the file
 with open('BASICS PYTH/myfile.txt','r') as f :
     print(f.read())
 # here we dont need to close the file manually, with does that for us even when any error occurs.
+
+''' Modes in file :
+1. read(r) - opens file in read mode and gives error if file doesn exist.
+2. write(w) - opens a file for writing only, creates a new file if the file doesn't exist. Using wirte mode overwrite the file's contents. 
+3. append(a) - opens a file for appending only, creates a new file if the file doesn't exist. Unlike write it doesn't erease the content of the file, it simply add the new data at the end.
+4. create(x) - creates a file and gives error if file already exist.
+5. text(t) - we use this to specify how the file must be handeled. t mode is used to handel text file. There is no difference between 'r' and 'rt', 'w' and 'wt' since text mode is default.
+6. binary(b) - used t open binary file. ex:- 'rb', 'wb' . '''
